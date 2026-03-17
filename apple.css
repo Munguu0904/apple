@@ -1337,9 +1337,12 @@ img {
   }
 
   /* Баруун талын дүрсүүдийг нэг блок болгож багцлах (хэрэв тусдаа бол) */
-  .right-icons {
+  .back {
     display: flex !important;
     align-items: center !important;
     gap: 15px !important; /* Хайлт болон сагс хоорондын зай */
+  }
+  .search-icon {
+    margin-left: 40px;
   }
 }
